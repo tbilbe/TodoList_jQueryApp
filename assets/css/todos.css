@@ -1,3 +1,18 @@
 body {
   background-color: coral;
 }
+
+#container {
+  border: 2px solid grey;
+  width: 360px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
