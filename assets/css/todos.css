@@ -35,15 +35,30 @@ li {
 li:nth-child(2n) {
   background-color: #f7f7f7;
 }
+li span {
+  background-color: #e74c3c;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  width: 0%;
+  display: inline-block;
+  transition: 0.2s linear;
+  opacity: 0;
+}
+li:hover span {
+  width: 50px;
+  opacity: 1;
+}
 input {
   margin: 0;
   font-size: 18px;
   background-color: #f7f7f7;
   width: 100%;
   padding: 13px 13px 13px 20px;
-
   box-sizing: border-box;
   color: #2980b9;
+  border: 2px solid rgba(0, 0, 0, 0);
 }
 input:focus {
   background-color: white;
@@ -59,4 +74,7 @@ input:focus {
 .completed {
   text-decoration: line-through;
   color: grey;
+}
+.fa-plus {
+  float: right;
 }
